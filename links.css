@@ -138,9 +138,8 @@ ul li{
       font-size:45px;
     
     }
-    ul li a{
+    .first ul li a,.second ul li a{
     
-        
         font-size: 20px;
       opacity:0.9;
     }
