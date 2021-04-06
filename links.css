@@ -29,7 +29,7 @@ padding: 5px;
 
 #one,#two{
 
- color:rgb(99, 169, 209);
+ color:cornsilk;
  font-weight: bolder;
  font-size:80px;
  margin-top: 50px;
@@ -120,7 +120,7 @@ box-shadow: none;
 }
 ul li{
 
-    opacity:1;
+    
     font-size: 25px;
 }
 .first ul li a:hover,.second ul li a:hover{
@@ -131,7 +131,7 @@ ul li{
 }
 
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:450px) {
     
     #one,#two{
     
@@ -141,7 +141,7 @@ ul li{
     ul li{
     
         
-        font-size: 22px;
+        font-size: 20px;
       opacity:1;
     }
     .first ul li a:hover,.second ul li a:hover{
