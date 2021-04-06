@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+
+::-webkit-scrollbar{
+    display: none;
+}  
+
+
+body{
+  
+    background-color: rgb(0, 0, 0);
+    font-family: Roboto;
+    margin: 0;
+   
+}
+
+.outer{
+
+    text-align:center;
+margin: 10px;
+padding: 5px;
+}
+
+#one,#two{
+
+ color:rgb(99, 169, 209);
+ font-weight: bolder;
+ font-size:80px;
+ margin-top: 50px;
+ margin-bottom: 10px;
+ border-radius: 10px;
+ box-shadow:2px 2px 0 azure;
+}
+
+
+
+.first,.second{
+    
+    margin:25px;
+    margin-top: 0;
+    border-radius: 10px;
+    display: none;
+}
+
+
+ul li{
+
+    word-spacing:3px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 35px;
+}
+
+
+.first ul li a{
+
+    color: honeydew;
+    font-style: oblique;
+    text-decoration: none;
+    opacity: 0.2;
+    
+}
+
+
+.second ul li a{
+
+    color: honeydew;
+    font-style: oblique;
+    text-decoration: none;
+    opacity: 0.2;
+
+}
+
+.first ul li a:hover,.second ul li a:hover{
+color: honeydew;
+font-size:40px;
+opacity:0.9;
+transition: ease-in 0.5s;
+}
+
+.first:hover,.second:hover{
+
+    box-shadow:2px 2px 0 0px rgb(201, 206, 209) ;
+    transition: ease-in 0.5s;
+}
+
+
+.button1:hover .first{
+display: block;
+margin-top: 0;
+
+}
+
+.button2:hover .second{
+    display: block;
+    margin-top: 0;
+}
+
+.button1:hover #one{
+box-shadow: none;
+}
+
+.button2:hover #two{
+    box-shadow: none;
+}
+
+
+@media screen and (max-width:600px) {
+    
+#one,#two{
+
+  font-size:60px;
+
+}
+ul li{
+
+    
+    font-size: 25px;
+}
+.first ul li a:hover,.second ul li a:hover{
+    
+    font-size:32px;
+    
+    }
+}
+
+
+@media screen and (max-width:420px) {
+    
+    #one,#two{
+    
+      font-size:45px;
+    
+    }
+    ul li{
+    
+        
+        font-size: 20px;
+    }
+    .first ul li a:hover,.second ul li a:hover{
+        
+        font-size:28px;
+        
+        }
+    }
