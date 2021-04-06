@@ -118,10 +118,11 @@ box-shadow: none;
   font-size:60px;
 
 }
-ul li{
+.first ul li a,.second ul li a{
 
     
     font-size: 25px;
+  opacity:0.7;
 }
 .first ul li a:hover,.second ul li a:hover{
     
