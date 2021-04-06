@@ -120,7 +120,7 @@ box-shadow: none;
 }
 ul li{
 
-    
+    opacity:1;
     font-size: 25px;
 }
 .first ul li a:hover,.second ul li a:hover{
